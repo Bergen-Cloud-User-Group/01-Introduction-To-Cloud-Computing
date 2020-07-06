@@ -93,7 +93,7 @@ In this step, we will create a group for administrators with **full access** to 
 ### Creating an IAM password policy
 Finally, the last step in the security status check is to apply an IAM password policy. This policy will dictate password length and complexity requirements, and things such as password expiration dates, and it is up to you how you wish to configure this policy.
 
-A couple of recommendations:
+A couple of recommendations:@
 
 * We suggest requiring 15+ character passwords to encourage the use of password managers.
 * We suggest **requiring** the use of MFA devices for **all users** as this *significantly* increases account security.
