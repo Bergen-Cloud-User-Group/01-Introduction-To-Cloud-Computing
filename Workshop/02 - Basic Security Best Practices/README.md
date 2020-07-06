@@ -125,12 +125,7 @@ To enable MFA on your newly created IAM account:
 
 
 ---
-<div>
-    <div style="float: left;">
-        <a href="../01 - Stage 1">← Lab 01 - Getting Started with AWS</a>
-    </div>
-    <div style="float: right;">
-        <a href="../03 - Launching an EC2 Instance">Lab 03: Launching an EC2 Instance →</a>
-    </div>
-</div>
+
+<p align="left"><a href="../01 - Stage 1">← Lab 01 - Getting Started with AWS</a></p>
+<p align="right"><a href="../03 - Launching an EC2 Instance">Lab 03: Launching an EC2 Instance →</a></p>
 
