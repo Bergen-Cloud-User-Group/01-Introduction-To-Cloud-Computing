@@ -61,5 +61,3 @@ Click the Sign In To the Console to continue.
 ---
 
 <p align="right"><a href="../02 - Basic Security Best Practices">Lab 02: Basic Security Best Practices →</a></p>
-Continue to the next lab:
-# [Lab 02: Launching A Virtual Machine]()
