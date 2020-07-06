@@ -117,6 +117,22 @@ You can also check that Apache is working by opening the IP address in a browser
 ![Sucecss!](GFX/Screenshot4.png)
 
 
+## Terminating Resources
+To ensure you are not billed for any costs, we recommend terminating the instance after you are done testing it, and deleting any resources connected to it, in this case, we have created an EBS instance by default.
+
+* To terminate the instance, go to the EC2 console, click the Instance in question
+* Click **Actions**
+* Select **Instance State** then **Terminate**
+* Confirm that you wish to terminate the instance.
+
+In most cases the EBS volume will be deleted automatically, but we want to ensure that it is in fact, deleted.
+* To delete the EBS volume, in the **left menu bar** click on **Volumes** under **Elastic Block Store**.
+* If there is a volume here, select it, click **Actions** then **Delete Volumes**
+
+Once your instances and volumes are deleted, no further cost incurring resources should be running. You can leave the keypair and security groups as is if you want, or you can delete these too.
+
+
+
 
 
 &nbsp;
