@@ -143,5 +143,5 @@ Once your instances and volumes are deleted, no further cost incurring resources
 
 ---
 <p align="left"><a href="../02 - Basic Security Best Practices">← Lab 02: Basic Security Best Practices</a></p>
-<p align="right"><a href="../04 - ">Lab 04:  →</a></p>
+<p align="right"><a href="../04 - Launching a MySQL Database">Lab 04: Launching a MySQL Database →</a></p>
 
