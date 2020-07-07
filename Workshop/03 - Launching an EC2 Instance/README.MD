@@ -125,6 +125,8 @@ To ensure you are not billed for any costs, we recommend terminating the instanc
 * Select **Instance State** then **Terminate**
 * Confirm that you wish to terminate the instance.
 
+![Terminating EC2 Instance](GFX/Screenshot5.png)
+
 In most cases, the EBS volume will be deleted automatically, but we want to ensure that it is deleted.
 * To delete the EBS volume, in the **left menu bar** click on **Volumes** under **Elastic Block Store**.
 * If there is a volume here, select it, click **Actions** then **Delete Volumes**
