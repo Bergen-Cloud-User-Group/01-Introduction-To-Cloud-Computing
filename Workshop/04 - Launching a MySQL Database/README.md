@@ -1,12 +1,15 @@
-# Lab 01 - Sample Lab
-![Lab 01 Banner](GFX/Lab01.png)
+# Lab 04 - Launching a MySQL Database
+![Lab 04 Banner](GFX/Lab04.png)
 
 ## Welcome!
-    <Introductory text>
+In this lab, we'll be launching a MySQL database using AWS managed database service, RDS.
+This lab is, as long as you are eligable, still within the free-tier.
+
+We will also demonstrate how you can allow an EC2 instance access to the MySQL server, and block the rest of the internet.
 
 ## Before You Begin
 
-    Things you should be aware of...
+* You will need a working EC2 instance in order to connect to the MySQL database. If you have terminated the instance from the previous lab, you will need to create a new one.
 
 ## Getting Started
 ### 1. Lab Steps
