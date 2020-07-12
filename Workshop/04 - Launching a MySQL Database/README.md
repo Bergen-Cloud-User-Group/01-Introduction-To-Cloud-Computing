@@ -53,7 +53,7 @@ You will be presented with more information about the database. Right now, we wa
 * Click on the *Input Rules* tab at the bottom, followed by **Edit Inbound Rules**.
 * **Add Rule**
     - Type: *MySQL/Aurora*
-    - Source: <Select your EC2 Instance> - You can find the corresponding security-group in EC2.
+    - Source: **SELECT YOUR EC2 INSTANCE** - You can find the corresponding security-group in EC2.
 * Click **Save Rules**
 
 ![Security Group Settings](GFX/Screenshot3.png)
@@ -86,6 +86,11 @@ $ MySQL -h database-1.cj3djpzlmfkx.us-east-1.rds.amazonaws.com -P 3306 -u admin 
 
 You're in! To terminate the database, return to RDS and select **DELETE** under **ACTIONS**.
 
+
+## Congratulations!
+You've successfully completed this workshop! Well done!
+
+Please consider joining our [Slack community](https://join.slack.com/t/bergencloudusergroup/shared_invite/zt-fwyhsd4g-hS8sODOjTLPii_BDgu2YKw) if you're interested in learning more. Thank you for participating!
 
 &nbsp;
 &nbsp;
