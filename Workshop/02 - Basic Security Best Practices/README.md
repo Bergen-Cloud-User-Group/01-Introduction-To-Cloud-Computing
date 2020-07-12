@@ -66,6 +66,9 @@ In this step, we will create a group for administrators with **full access** to 
 * Click **Create Group** to create an Administrators Group.
 * Call the Group: **"AWS-Global-Admin"**.
 * Add the policy **AdministratorAccess** by checking the box next to it.
+
+> **IMPORTANT!** Please note: Administrators with the *AdministratorAccess* do not neccesarily have access to billing features of AWS. Do gain access to this, you must give IAM users access to the console. Follow [this](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/control-access-billing.html) AWS documentation to activate the feature.
+
 * Click **Create Group**.
 
 
