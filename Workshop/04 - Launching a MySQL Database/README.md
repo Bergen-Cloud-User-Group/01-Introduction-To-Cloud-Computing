@@ -41,6 +41,42 @@ Just like launching an EC2 instance in the previous lab, launching an RDS instan
 * Click **CREATE DATABASE** to finish creating the database.
 
 ### 2. Configuring Security
+When the database is listed as "*AVAILABLE*" (It will take several minutes for this to complte) we are ready to move on.
+
+* Begin by clicking on the database name to configure settings.
+
+You will be presented with more information about the database. Right now, we want to try and connect to the database from your IP only. This will allow you to log in to the database server from your computer.
+
+* Click on the **VPC Security Group** under *Security*.
+* Click on the *Input Rules* tab at the bottom, followed by **Edit Inbound Rules**.
+* **Add Rule**
+    - Type: *MySQL/Aurora*
+    - Source: <Select your EC2 Instance> - You can find the corresponding security-group in EC2.
+* Click **Save Rules**
+
+* Return to the RDS console and locate the database settings again.
+* Copy the RDS Endpoint - we'll need this in a minute.
+
+* SSH to your EC2 instance.
+* Install the MySQL Client using:
+
+```bash
+$ yum update -y
+$ yum install MySQL
+```
+
+* Once installed, connect to MySQL using:
+```bash
+
+$ mysql -h YOUR-ENDPOINT -P 3306 -u YOUR-ADMIN-USERNAME -p
+```
+
+For example:
+```bash
+$ mysql -h database-1.cj3djpzlmfkx.us-east-1.rds.amazonaws.com -P 3306 -u admin -p
+```
+
+You're in! To terminate the database, return to RDS and select **DELETE** under **ACTIONS**.
 
 
 &nbsp;
