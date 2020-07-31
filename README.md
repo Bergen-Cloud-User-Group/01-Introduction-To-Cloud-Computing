@@ -1,5 +1,5 @@
 # 01 - Introduction To Cloud Computing
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Version: 0.1](https://img.shields.io/static/v1?label=VERSION&message=0.1&color=RED)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Version: 0.1](https://img.shields.io/static/v1?label=Version&message=0.1&color=RED)
 
 ## Slack Community
 Have questions? Want to learn more? Join our Slack community:
