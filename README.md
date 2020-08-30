@@ -1,4 +1,4 @@
-# 01 - Introduction To Cloud Computing
+# 01 - Introduction To AWS
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Version: 0.1](https://img.shields.io/static/v1?label=Version&message=0.1&color=RED)
 
 ## Slack Community
