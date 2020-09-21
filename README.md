@@ -5,6 +5,10 @@
 Have questions? Want to learn more? Join our Slack community:
 https://join.slack.com/t/bergencloudusergroup/shared_invite/zt-fwyhsd4g-hS8sODOjTLPii_BDgu2YKw
 
+## Meetup 01 Recording:
+The recording of our first meeup is available here:
+https://youtu.be/HksMXPNQ2TI
+
 ## Welcome to Cloud Computing!
 Welcome to the world of Cloud Computing!
 
